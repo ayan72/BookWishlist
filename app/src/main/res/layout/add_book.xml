@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Title"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:textColorHint="#78909C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Author"
+        android:hint="@string/author"
+        android:inputType="text"
+        android:textColorHint="#78909C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Genre"
+        android:hint="@string/genre"
+        android:textColorHint="#78909C"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="year"
+        android:hint="@string/year"
+        android:textColorHint="#78909C"
+        android:inputType="numberDecimal"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/editStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read"/>
+
+</LinearLayout>
